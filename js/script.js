@@ -61,5 +61,5 @@ console.log(str4.match(/ab+a/gi));
 //Задача 8
 
 let phone = '+375299917177';
-let regexp = /[+]375[0-9]{2}-[0-9]{3}-[0-9]{2}-[0-9]{2}/gi;
+let regexp = /[+]375(29|33|44|25)[0-9]{7}/;
 console.log(regexp.test(phone));
